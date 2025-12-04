@@ -1,5 +1,12 @@
 # Speech Emotion Recognition
 
+## Overview:
+This project implements an end-to-end emotion recognition pipeline built from raw audio samples. Using feature extraction (MFCCs, spectral features) and machine-learning models, the system classifies emotional states such as happiness, anger, sadness, and neutrality.
+
+During experimentation, we discovered that the model generalizes surprisingly well across languages — indicating that emotional expression is encoded primarily in prosody and acoustic patterns rather than linguistic content.
+
+This repository includes preprocessing scripts, dataset tools, model training notebooks, and evaluation metrics.
+
 ## Emotions Detected: 
   - ANGRY 
   - DISGUST
